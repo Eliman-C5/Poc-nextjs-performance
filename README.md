@@ -1,7 +1,3 @@
-Of course. Here is a more attractive and engaging `README.md` file for your project, formatted with Markdown code. This version is designed to grab attention, explain the project's value clearly, and showcase your professional skills.
-
------
-
 # Next.js Performance Optimization: A Proof of Concept
 
 ## A proactive approach to web performance.
