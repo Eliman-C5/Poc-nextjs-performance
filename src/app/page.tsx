@@ -27,7 +27,7 @@ export default function HomePage() {
       <section>
         <h2 className="title">1. Problem: Missing Image Dimensions (Causes CLS)</h2>
         <p style={{ marginBottom:  '1rem'}}>
-          An image without `width` and `height` causes "layout shift" or design change,
+          An image without &quot;width&quot; and &quot;height&quot; causes &quot;layout shift&quot; or design change,
           as the browser cannot reserve space before the image loads.
           <a href="/no-optimized-cat.jpg">
             (Click here to view the unoptimized image)
@@ -39,9 +39,9 @@ export default function HomePage() {
       <hr />
 
       <section>
-        <h2 className="title">Solution: Use the `next/image` Component</h2>
+        <h2 className="title">Solution: Use the &quot;next/image&quot; Component</h2>
         <p style={{ marginBottom:  '1rem'}}>
-          The Next.js `Image` component eliminates CLS by requiring dimensions. Additionally,
+          The Next.js &quot;Image&quot; component eliminates CLS by requiring dimensions. Additionally,
           it automatically optimizes images, uses lazy loading, and serves modern
           formats like WebP.
         </p>
@@ -62,7 +62,7 @@ export default function HomePage() {
       <section>
         <h2 className="title">2. Problem: Flash of Invisible Text (FOIT)</h2>
         <p>
-          When using external fonts without `font-display`, the text remains invisible until
+          When using external fonts without &quot;font-display&quot;, the text remains invisible until
           the font is downloaded, which negatively impacts the user experience.
         </p>
         <p className="font-problem" style={{ fontSize: '2rem' }}>
@@ -73,10 +73,10 @@ export default function HomePage() {
       <hr />
 
       <section>
-        <h2 className="title">Solution: Use `@next/font` with `font-display: 'swap'`</h2>
+        <h2 className="title">Solution: Use &quot;@next/font&quot; with &quot;font-display: swap&quot;</h2>
         <p>
-          The `font-display: 'swap'` property shows a fallback font immediately,
-          avoiding the "flash" of invisible text. The Next.js `@next/font` component
+          The &quot;font-display: swap&quot; property shows a fallback font immediately,
+          avoiding the &quot;flash&quot; of invisible text. The Next.js &quot;@next/font&quot; component
           handles this automatically and optimizes font loading.
         </p>
         <p style={{ fontSize: '2rem' }} className={roboto.className}>
