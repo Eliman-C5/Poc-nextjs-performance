@@ -4,7 +4,7 @@
 
 This repository serves as a live demonstration of how to tackle and solve common performance issues in Next.js applications. Instead of just talking about Core Web Vitals, I built this project to show them in action.
 
-I noticed some performance opportunities on a leading software factory's website. With a PageSpeed score of **14** and high metrics for **Total Blocking Time (TBT)**, **Cumulative Layout Shift (CLS)**, and a slow **Largest Contentful Paint (LCP)**, I saw a chance to provide value before even interviewing.
+I noticed some performance opportunities on a leading software factory's website. With a PageSpeed score below of **49** and high metrics for **Total Blocking Time (TBT)**, **Cumulative Layout Shift (CLS)**, and a slow **Largest Contentful Paint (LCP)**, I saw a chance to provide value before even interviewing.
 
 This PoC isn't just theory—it's a practical guide to turning low performance scores into a lightning-fast user experience.
 
