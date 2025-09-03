@@ -42,10 +42,9 @@ A high TTFB score often points to slow Server-Side Rendering (SSR). This happens
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Eliman-C5/Poc-nextjs-performance.git
+    cd poc-nextjs-performance
     ```
-
 2.  **Install dependencies:**
 
     ```bash
